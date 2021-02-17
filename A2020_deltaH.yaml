@@ -1,0 +1,7 @@
+sources:
+    A2020_deltaH:
+      args:
+        urlpath: "gs://ldeo-glaciology/subshelfmeltrates/adusumulli_2020/A2020_deltaH.zarr"
+      description: "Adusumulli++ 2020 Antarctic subshelf melt rates"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
