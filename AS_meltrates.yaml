@@ -1,0 +1,7 @@
+sources:
+    AS_meltrates:
+      args:
+        urlpath: "gs://ldeo-glaciology/subshelfmeltrates/adusumulli_2020/A2020_meltrates.zarr"
+      description: "AS_meltrates"
+      driver: intake_xarray.xzarr.ZarrSource
+      metadata: {}
